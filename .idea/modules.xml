@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Sandwich_Club_App-Akki.iml" filepath="$PROJECT_DIR$/.idea/modules/Sandwich_Club_App-Akki.iml" group="Sandwich_Club_App-Akki" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="Sandwich_Club_App-Akki/app" />
+    </modules>
+  </component>
+</project>
