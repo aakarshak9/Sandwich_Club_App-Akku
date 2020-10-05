@@ -9,20 +9,18 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 public class MainActivity extends AppCompatActivity {
-private ListView listView;
+    private ListView listView;
     
     String[] sandwiches = getResources().getStringArray(R.array.sandwich_names);
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(this,
-                R.layout.list_item, sandwiches);
+    ArrayAdapter<String> adapter = new ArrayAdapter<>(this,R.layout.list_item, sandwiches);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         
-
         // Simplification: Using a ListView instead of a RecyclerView
         listView = findViewById(R.id.sandwiches_listview);
+        
         listView.setAdapter(adapter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
